@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".favorites">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height= "75dp">
+
+      <TextView
+          android:layout_width="500sp"
+          android:layout_height="70sp"
+          android:text="My SmartHome"
+          android:textSize="30sp"
+          android:textColor="@color/white"
+          android:background = "#FFC107"
+          android:gravity="center">
+      </TextView>
+      <ImageView
+          android:layout_width="70dp"
+          android:layout_height="75dp"
+          android:layout_marginLeft="340dp"
+          android:src="@drawable/edit"
+          app:tint="@color/white"
+          android:scaleX="0.4"
+          android:scaleY="0.4"
+          android:layout_marginTop="10dp">
+
+      </ImageView>
+      
+  </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/star"
+        app:tint="#6A6060"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginTop="250dp"
+        android:text="No favorites"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#4E4C4C"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        android:text="Add your favorites routines for easy access here \n \n Tap '+' button to add your favorite routines"
+        />
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginLeft="290dp"
+        app:iconTint="@color/white"
+        app:icon="@drawable/plus"
+
+
+        />
+
+</FrameLayout>

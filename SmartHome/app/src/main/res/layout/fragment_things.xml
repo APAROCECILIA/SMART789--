@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".things">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height= "75dp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:text="My Smart Home "
+           android:textSize="40sp"
+           android:gravity="center"
+           android:background="#FFEB3B"
+           android:textColor="@color/white"
+           android:textStyle="bold">
+       </TextView>
+
+   </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/things"
+        android:layout_marginTop="70dp"
+        app:tint="#676464"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="No Things!  "
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="It looks like we did not discover any devices "
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#959292"
+        android:layout_marginTop="150dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:text="try an option below "
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="#959292"
+
+        />
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="2dp"
+     android:background="@color/teal_200"
+     android:layout_marginTop="330dp"
+     android:backgroundTint="#C3BCBC"
+
+     />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"
+        app:iconTint="@color/white"
+        app:icon="@drawable/run">
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="20dp"
+        app:iconTint="@color/white"
+        app:icon="@drawable/plus">
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="20dp"
+        app:iconTint="@color/white"
+        app:icon="@drawable/account">
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="20dp"
+        app:iconTint="@color/white"
+        app:icon="@drawable/contact"
+        >
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="Run discovery"
+        android:textSize="25sp"
+        android:textColor="#5173CA"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="Add a cloud Account"
+        android:textSize="25sp"
+        android:textColor="#5173CA"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="420dp"
+        ></TextView>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="View our supported devices"
+        android:textSize="25sp"
+        android:textColor="#5173CA"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="490dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="Contact support"
+        android:textSize="25sp"
+        android:textColor="#5173CA"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="560dp"
+        ></TextView>
+</FrameLayout>

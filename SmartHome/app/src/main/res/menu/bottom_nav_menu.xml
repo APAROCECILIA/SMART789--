@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/star"
+    android:title="Favourites"
+    android:id="@+id/fav"
+
+    />
+    <item
+        android:icon="@drawable/things"
+        android:title="Things"
+        android:id="@+id/thing"
+        />
+    <item
+        android:icon="@drawable/routines"
+        android:title="Routines"
+        android:id="@+id/rout"
+        />
+    <item
+        android:icon="@drawable/ideas"
+        android:title="Ideas"
+        android:id="@+id/idea"
+        />
+    <item
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        android:id="@+id/set"
+        />
+</menu>

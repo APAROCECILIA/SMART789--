@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".settings">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height= "75dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="30sp"
+            android:text="My Smart Home"
+            android:gravity="center"
+            android:background="#FFEB3B"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="User settings"
+        android:layout_marginTop="60dp"
+        android:textColor="#706F6E"
+        android:textSize="25sp"
+        android:background= "#E1D5ED"
+        >
+    </TextView>
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/accounts"
+            app:tint="#FFEB3B"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_marginTop="91dp">
+        </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        android:text="MOSES"
+        android:textSize="23sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#1B1919">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:text="kmoses@gmail.com"
+        android:textSize="20sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#777575">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Home settings"
+        android:layout_marginTop="190dp"
+        android:textColor="#706F6E"
+        android:textSize="25sp"
+        android:background= "#D8C5EC"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/moses"
+        app:tint="#FFEB3B"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_marginTop="220dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:text="Accounts and Hubs"
+        android:textSize="24sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#555353">
+    </TextView>
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/clients"
+        app:tint="#FFEB3B"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_marginTop="270dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:text="Clients"
+        android:textSize="24sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#555353">
+    </TextView>
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/location"
+        app:tint="#FFEB3B"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_marginTop="330dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="360dp"
+        android:text="Locations"
+        android:textSize="24sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#555353">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Voice"
+        android:layout_marginTop="400dp"
+        android:textColor="#706F6E"
+        android:textSize="25sp"
+        android:background= "#D8C5EC"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/assistant"
+        app:tint="#FFEB3B"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_marginTop="440dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="App Permission"
+        android:layout_marginTop="530dp"
+        android:textColor="#706F6E"
+        android:textSize="25sp"
+        android:background= "#D8C5EC"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/notifications"
+        app:tint="#50504E"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_marginTop="560dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="590dp"
+        android:text="Notifications and Permissions"
+        android:textSize="24sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#555353">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="470dp"
+        android:text="Voice Assistant"
+        android:textSize="24sp"
+        android:layout_marginStart="80dp"
+        android:textColor="#555353">
+    </TextView>
+
+
+
+
+</FrameLayout>
